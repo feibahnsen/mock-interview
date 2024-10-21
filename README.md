@@ -1,5 +1,5 @@
 Welcome to <b>Unlock Youth Potential</b>'s <b>Mock Interview Tool</b> 💼! This tool is designed to help users prepare for real interviews by providing personalised interview questions and giving them the opportunity to practice responding aloud.
-Whether you're gearing up for a job interview or just want to sharpen your speaking skills, this tool will guide you through realistic questions to build your confidence.
+Whether you're gearing up for a job interview or just want to sharpen your speaking skills, this tool will guide you through realistic questions to build your confidence. 🌟
 
 🔧<b>Features:</b>
 * <b>Realistic Interview Questions:</b> Tailored to simulate common and challenging interview questions
