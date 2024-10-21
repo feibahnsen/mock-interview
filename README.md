@@ -4,7 +4,7 @@ Whether you're gearing up for a job interview or just want to sharpen your speak
 🔧<b>Features:</b>
 * <b>Realistic Interview Questions:</b> Tailored to simulate common and challenging interview questions
 * <b>User-Friendly Interface:</b> Clean and simple design for a smooth prcatice session
-* <b>Brief core Reports:</b> Receive a quick overview of how you felt about each question- whether it was easy, medium, or hard- along with a recap of the questions asked
+* <b>Brief Score Reports:</b> Receive a quick overview of how you felt about each question- whether it was easy, medium, or hard- along with a recap of the questions asked
 * <b>Hints:</b> Stuck on a question? Simply click "Give me a Hint💡" and receive a helpful hint to guide your answer.
 * <b>Pacing Indicator:</b> Tracks how long a user takes to answer without enforcing a strict limit. The pacing indicator subtly highlights moments when responses might feel awkward due to delays ("Getting awkward 😬")
 
