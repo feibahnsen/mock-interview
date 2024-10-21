@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interview Practice</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-size: 1.55em;
+        }
+        button {
+            font-size: 1em;
+            padding: 8px 16px;
+        }
+        #question {
+            font-size: 1.25em;
+        }
+        .confetti-container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none; /* Allow clicks to go through */
+            overflow: hidden;
+        }
+        .confetti {
+            position: absolute;
+            opacity: 0.8;
+            will-change: transform; /* For smoother animations */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="home">
+            <h1>Mock Interview</h1>
+            <p>Welcome to the interview! 👋 <br>During this practice session, you'll receive a series of questions to answer out loud, just like in a real interview.<br>🧘🎧 Take your time, focus on your responses, and use this as an opportunity to uild confidence and improve your speaking skills.<br>Good luck! 🍀</p>
+            <label for="name">Enter your name:</label>
+            <input type="text" id="username" placeholder="Your name">
+            <h2>Select Interview Type:</h2>
+            <button onclick="startInterview('Behavioral')">Behavioral</button>
+            <button onclick="startInterview('Technical')">Technical</button>
+            <button onclick="startInterview('Case')">Case</button>
+            <button onclick="startInterview('Traditional')">Traditional</button>
+        </div>
+
+        <div id="question-slide" class="hidden">
+            <h2 id="question"></h2>
+            <div id="timer">
+                <div id="timer-bar" style="width: 100%; height: 20px;"></div>
+                <span id="timer-text">10 seconds left</span>
+            </div>
+            <button id="currently-answering-btn" onclick="currentlyAnswering()">Currently answering</button>
+            <div id="awkward-message" class="hidden" style="font-size: 24px;">Getting awkward 😬</div>
+            <div id="rating-slide" class="hidden">
+                <h2>Rate the question: 🙋</h2>
+                <button onclick="recordRating('Easy')">Easy 💚</button>
+                <button onclick="recordRating('Medium')">Medium 💛</button>
+                <button onclick="recordRating('Hard')">Hard ❤️</button>
+                <button onclick="goBack()" class="back-btn">⏪ Back</button>
+            </div>
+        </div>
+
+        <div id="final-slide" class="hidden">
+            <h2 id="final-message"></h2>
+            <div id="scoreboard"></div>
+            <a href="index.html"><button>Try Again</button></a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
